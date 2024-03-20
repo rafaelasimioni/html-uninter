@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <style>
+        body{
+            background-color: lightcyan;
+            margin: 20px;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Pedido de Pizza</h1>
+    <form method="get" action="test.jsp"></form>
+       Nome: <input type="text" name="nome"><br>
+       Email: <input type="email" name="email"><br>
+       Tamanho: 
+       <input type="radio" name="tamanho" value="g" checked>Grande
+       <input type="radio" name="medio" value="m">Médio
+       <input type="radio" name="pequeno" value="p">Pequeno <br>
+        Sabor 1: <select name="sabor">
+            <option>Calabresa</option>
+            <option>Frango</option>
+            <option>Coração</option><br>
+        </select><br>
+        Sabor 2: <select name="sabor">
+            <option>Calabresa</option>
+            <option>Frango</option>
+            <option>Coração</option><br>
+            <option>Portuguesa</option>
+        </select><br>
+        Sabor 3: <select name="sabor">
+            <option>Calabresa</option>
+            <option>Frango</option>
+            <option>Coração</option><br>
+        </select><br>
+        Adicionais:
+        <input type="checkbox" name="borda" value="sim">borda
+        <input type="checkbox" name="queijo" value="sim">Queijo extra <br>
+        Data entrega: <input type="date" name="dataentrega"><br>
+        <textarea name="mensagem" cols="30" rows="10"></textarea><br>
+        <input type="submit">
+        
+ 
+</body>
+</html>

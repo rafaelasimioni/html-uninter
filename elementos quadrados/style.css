@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.quadrado{
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightpink; 
+    position: absolute;
+    /* a posição é absoluta em relação a página */
+}
+
+
+.quadrado2{
+    right: 0px;
+    top: 0px;
+    background-color: rgb(230, 90, 114);
+}
+
+.quadrado3{
+    left: 0px;
+    bottom: 0px;
+    background-color: rgb(119, 50, 61);
+}   
+
+.quadrado4{
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(189, 7, 40);
+}
